@@ -1,0 +1,24 @@
+/* TailwindCSS imports and custom styles */ 
+/* frontend/styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 💡 Base Layer: Dark Theme Setup */
+@layer base {
+  body {
+    /* Set dark background and white text globally */
+    @apply bg-gray-900 text-white font-sans;
+    min-height: 100vh;
+  }
+}
+
+/* 💡 Component Layer: Custom Utilities */
+@layer components {
+  /* page-container utility for centered, padded content area */
+  .page-container {
+    /* flex-grow ko hata diya kyuki woh <main> component par applied hai */
+    @apply max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8; 
+  }
+}
