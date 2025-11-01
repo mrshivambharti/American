@@ -1,1 +1,0 @@
-// JWT secret and options 
