@@ -1,0 +1,23 @@
+{
+  "name": "american-locus-backend",
+  "version": "1.0.0",
+  "description": "Backend for American Locus Game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "dev": "npm run server"
+  },
+  "keywords": [
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

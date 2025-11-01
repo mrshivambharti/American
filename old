@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2",
+    "socket.io": "^4.8.1"
+  }
+}
+
+
+{"dependencies":{"autoprefixer":"latest","axios":"^1.13.1","next":"latest","postcss":"latest","react":"latest","react-dom":"latest","react-hot-toast":"^2.6.0","socket.io-client":"^4.8.1","tailwindcss":"latest"}}
